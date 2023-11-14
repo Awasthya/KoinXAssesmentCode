@@ -1,6 +1,5 @@
-import React, { useState,useEffect } from 'react';
+
 import FAQData from './FAQ.json';
-import axios from 'axios';
 import './FAQ.css'
 export const FAQ = () => {
 
