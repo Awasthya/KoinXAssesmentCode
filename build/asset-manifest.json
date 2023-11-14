@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/KoinXAssesment/static/css/main.c33a2c64.css",
+    "main.js": "/KoinXAssesment/static/js/main.a940e769.js",
+    "static/js/787.dd38d945.chunk.js": "/KoinXAssesment/static/js/787.dd38d945.chunk.js",
+    "index.html": "/KoinXAssesment/index.html",
+    "main.c33a2c64.css.map": "/KoinXAssesment/static/css/main.c33a2c64.css.map",
+    "main.a940e769.js.map": "/KoinXAssesment/static/js/main.a940e769.js.map",
+    "787.dd38d945.chunk.js.map": "/KoinXAssesment/static/js/787.dd38d945.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c33a2c64.css",
+    "static/js/main.a940e769.js"
+  ]
+}
