@@ -1,0 +1,30 @@
+.calculator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.left{
+    display :flex;
+    flex-direction: column;
+    justify-content : left;
+    width : 100%;
+    align-items: space-around;
+    border : 2px solid black;
+}
+.right{
+    display :flex;
+    flex-direction: column;
+    justify-content : left;
+    align-items: space-around;
+    width : 100%;
+}
+.country{
+    width : 100%;
+}
+.purchasePrice {
+    width : 73%;
+    
+    display :flex;
+    flex-direction: column;
+    justify-content : left;
+}

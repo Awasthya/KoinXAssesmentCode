@@ -1,0 +1,252 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  width : 100%;
+}
+.main{
+  margin : 0px;
+  padding : 0px;
+  display : flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin-top: 3%; 
+  width : 70%;
+}
+.left{
+  
+  background-color: white;
+  margin-left: 4%;
+  border-radius: 3%;
+  height : auto;
+}
+
+.calculatorRow{
+  display : flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top : 1.5%;
+  align-items: center;
+  margin : 2%;
+}
+.feedback{
+  margin-top :5%;
+  background-color: white;
+  margin-left: 4%;
+  border-radius: 3%;
+  height : auto;
+}
+button{
+  width : 50%;
+  height : 100%;
+  margin : 2%;
+  size : 20px;
+  padding : 2%;
+  border-radius: 30px;
+}
+.InvestmentType{
+  display: flex;
+  flex-direction: column;
+  width : 35%;
+  margin-top: 5%;
+  
+  
+}
+.visible{
+  visibility : true;
+}
+.Invisible{
+ display : none;
+}
+.condition {
+  display : flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: small;
+}
+button:focus{
+  border: solid rgb(12, 19, 220) 3px;
+  background-color:  rgb(185, 213, 238) ;
+  color:blue;
+}
+.content {
+width : 40%;  
+display : flex;
+justify-content: space-around;
+align-items: flex-end
+}
+.spacing{
+  padding: 1%;
+}
+label{
+  width :100%;
+  text-align: left;
+}
+.year-select{
+  width : 100%;
+}
+.netTaxAmount{
+  margin-top: 40px;
+}
+select{
+  width : 120%;
+  height : 100%;
+  padding : 5%;
+  margin-top : 2%;
+  border-radius: 5%;
+  background-color: rgb(208, 208, 208);
+  border : 2px white;
+}
+input{
+  height : 2.3em;
+  width : 100%;
+  background-color: rgb(219, 219, 219);
+  border: none;
+  border-radius: 5px;
+  padding : 5px;
+}
+inputdiv::before{
+  content: '$';
+  font-family: sans-serif;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  
+  transform: translateY(-50%);
+}
+
+.but{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.AnnualIncome{
+  width : 33%;
+  display : flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left : -11px;
+  justify-content: space-between;
+}
+.expense{
+  margin-top: -40px;;
+}
+.expensePrice{
+  width : 40%;
+  display : flex;
+  flex-direction: column;
+  justify-content : left;
+}
+.purchasePrice{
+  width : 37%;
+  display : flex;
+  flex-direction: column;
+  justify-content : left;
+}
+.capital{
+  width : 37%;
+  display : flex;
+  flex-direction: column;
+  justify-content : left;
+  
+}
+.greeneffect{
+  background-color: rgb(180, 220, 180);
+  border-radius: 7%;
+  width : 25%;
+}
+.netGain{
+  font-size : 18px;
+}
+.blueeffect{
+  background-color: rgb(148, 208, 234);
+  border-radius: 7%;
+  width : 25%;
+}
+.capitalgain{
+  position: relative;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main{
+    width : 70%;
+  }
+  .body{
+    padding: 0px;
+  }
+  .calculatorRow{
+
+    flex-direction: column;
+    align-items: center;
+    padding : 0px;
+  }
+  .location{
+    flex-direction: row;
+  }
+  label{
+    width :auto ;
+    text-align: left;
+  }
+  input {
+    width : 100%;
+  }
+  .AnnualIncome{
+    margin-top: 0%;
+  }
+  .expense{
+    margin-top: 0px;;
+  }
+  .calculatorRow{
+    padding : 0px;
+  }
+  .AnnualIncome{
+    width : 100%;
+    position: relative;
+    align-items: center;;
+  }
+  .expensePrice{
+    width : 80%;
+  }
+  .purchasePrice{
+    width :80%;
+  }
+  .capital{
+    width : 80%;
+    display : flex;
+    flex-direction: column;
+    justify-content : left;
+    
+  }
+  select {
+    width : 80%;
+  }
+  button {
+    width : 80%;
+  }
+  .greeneffect{
+    width : 70%;
+  }
+  .blueeffect{
+    margin-top : 8px;
+    width : 70%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .body {
+    flex-direction: column;
+  }
+  .main{
+    width : 100%;
+  }
+  .left{
+    margin-left: 0%;
+    border-radius: 0%;
+  }
+  .feedback{
+    margin-top: 0%;
+    margin-left : 0%;
+    border-radius: 0%;
+  }
+}
