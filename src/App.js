@@ -150,7 +150,7 @@ useEffect (() =>{
               </div>
               <div className="purchasePrice ">
                 <label htmlFor=""> Discount for llong term gain : </label>
-                <input type="text" value =  {`$ ${CapitalGain/2}`}  placeholder = "Enter Sale price" />
+                <input type="text" value =  {`$ ${CapitalGain/2 > 0 ? CapitalGain/2  : 0} `}  placeholder = "Enter Sale price" />
               </div>
             </div>
             <div className="netTaxAmount calculatorRow">
